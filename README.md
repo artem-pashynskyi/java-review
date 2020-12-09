@@ -23,3 +23,8 @@
     - @Override annotation help compiler to check for a valid method signature.
     - System.out.println - automatically applies toString() method to each object.
     - Inheritance represents an "IS A" relationship. 
+ 
+ - Interfaces:
+    - Dependency Injection - Our classes should not instantiate their dependencies.
+    - Divide big interfaces into smaller ones.
+    - Interfaces(Contracts): to build loosely-coupled, extensible, testable applications. VS Abstract Classes(Partially-completed Classes): To share code.
