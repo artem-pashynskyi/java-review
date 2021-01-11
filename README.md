@@ -10,13 +10,7 @@
 
 - Enums
 
-- Lambda
-
-- MapEntry
-
-- OOP Refactoring
-
-- Streams
+- Exceptions
 
 - Inheritance:
     - Hexadecimal numeral system, often shortened to "hex", is a numeral system made up of 16 symbols (base 16). The standard numeral system is called decimal (base 10) and uses ten symbols: 0,1,2,3,4,5,6,7,8,9. Hexadecimal uses the decimal numbers and six extra symbols. There are no numerical symbols that represent values greater than nine, so letters taken from the English alphabet are used, specifically A, B, C, D, E and F. Hexadecimal A = decimal 10, and hexadecimal F = decimal 15.
@@ -24,7 +18,17 @@
     - System.out.println - automatically applies toString() method to each object.
     - Inheritance represents an "IS A" relationship. 
  
- - Interfaces:
+- Interfaces:
     - Dependency Injection - Our classes should not instantiate their dependencies.
     - Divide big interfaces into smaller ones.
     - Interfaces(Contracts): to build loosely-coupled, extensible, testable applications. VS Abstract Classes(Partially-completed Classes): To share code.
+
+- Lambda
+
+- MapEntry
+
+- OOP
+
+- OOP Refactoring
+
+- Streams
