@@ -5,6 +5,10 @@
 - Classes
 
 - Collections
+    - Set:
+        - addAll() - combine two lists and remove duplicates
+        - retainAll() - combine two lists and keep only common elements in both sets.
+        - removeAll() - combine two lists and keep only items from the first set that we do not have in second set
 
 - Core
 

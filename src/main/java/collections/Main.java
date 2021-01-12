@@ -1,0 +1,15 @@
+package collections;
+
+import generics.GenericList;
+
+public class Main {
+    public static void main(String[] args) {
+        var list = new GenericList<String>();
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        var iterator = list.iterator();
+        for(var item : list)
+            System.out.println(item);
+    }
+}
