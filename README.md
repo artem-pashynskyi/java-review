@@ -27,7 +27,12 @@
     - Divide big interfaces into smaller ones.
     - Interfaces(Contracts): to build loosely-coupled, extensible, testable applications. VS Abstract Classes(Partially-completed Classes): To share code.
 
-- Lambda
+- Lambda:
+    - Functional Interfaces:
+        - Consumer -> void consume(obj);
+        - Supplier -> obj supply();
+        - Function -> obj map(obj);
+        - Predicate -> boolean test(condition);
 
 - MapEntry
 
