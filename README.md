@@ -41,3 +41,28 @@
 - OOP Refactoring
 
 - Streams
+    - To process a collection of data in a declarative way.
+    - Intermediate operations:
+        - map() / flatMap()
+        - filter()
+        - limit(n) / skip(n)
+        - takeWhile(predicate) / dropWhile(predicate)
+        - sorted(Comparator.comparing(Movie::getTitle))
+        - distinct()
+        - peek()
+    - Reducers:
+        - count()
+        - anyMatch(predicate)
+        - allMatch(predicate)
+        - noneMatch(predicate)
+        - findFirst() / findAny()
+        - max(comparator) / min(comparator)
+    - Collectors:
+        - toList()
+        - toSet()
+        - toMap()
+        - summarizingInt()
+        - joining()
+        - groupingBy()
+            
+        
