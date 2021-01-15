@@ -65,4 +65,23 @@
         - joining()
         - groupingBy()
             
-        
+- Concurrency:
+    - thread.start()
+    - thread.sleep()
+    - thread.join() - waits till thead is finished to proceed.
+    - thread.interrupt() - do not actually stop the thread, but sends a request to stop thread, need to check for the interrupt status to stop.
+    - Strategies to write thread safe code(to avoid Race conditions):
+        - Confinement - create new object for each thread.
+        - Immutability - Lock lock = new ReentrantLock(); - lock.lock() / lock.unlock() object while working on it.
+        - Synchronization - synchronized keyword.
+        - Volatile keyword - guarantees that changes to a field are visible across all threads.
+        - Atomic objects 
+            - Incrementing: AtomicInteger class is good for incrementing values and preferable over synchronization.
+            - Adding: LongAdder / DoubleAdder classes are good for adding / incrementing values and preferable over synchronization.
+        - Partitioning
+            - ConcurrentMap
+            - ConcurrentHashMap
+            - ConcurrentLinkedDeque
+            - ConcurrentSkipListSet
+    - Collections.synchronizedCollection();    
+    
