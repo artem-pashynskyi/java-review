@@ -85,3 +85,20 @@
             - ConcurrentSkipListSet
     - Collections.synchronizedCollection();    
     
+- Executors:
+    - Thread pool (Executors framework)
+        - ExecutorService implementing classes:
+            - ForkJoinPool
+            - ScheduledThreadPoolExecutor
+            - ThreadPoolExecutor
+        - Executors framework - just simplifies thread manipulation, but does not solve concurrent issues while modifying same object.
+        - Executors.newFixedThreadPool(2); - created new pool with 2 threads.
+            - executor.submit() - submits a task to the thread pool.
+            - executor.shutdown() - stops the thread pool, but only after all tasks are finished.
+            - executor.shutdownNow() - stops the thread pool and forces all existing tasks to stop.  
+        - CompletableFuture.runAsync(); - runs a task in the separate thread and continues the execution.
+        - CompletableFuture.supplyAsync();
+        
+            
+            
+    
